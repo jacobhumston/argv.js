@@ -1,0 +1,13 @@
+{
+    "entryPoints": ["src/core.ts"],
+    "out": "docs/",
+    "navigationLinks": {
+        "GitHub": "https://github.com/jacobhumston/argv.js",
+        "npm": "https://www.npmjs.com/package/@jacobhumston/argv.js"
+    },
+    "$schema": "https://typedoc.org/schema.json",
+    "plugin": ["@mxssfd/typedoc-theme"],
+    "theme": "my-theme",
+    "includeVersion": true,
+    "json": "docs/docs.json"
+}
